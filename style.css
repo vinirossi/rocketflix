@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --title: #fffcf9;
+    --subtitle: #b3b3b3;
+    --bg-button: #e9e6e3;
+    --background: linear-gradient(43deg, #102d71 0%, #000000 52%, #c12a23 100%);
+}
+
+body,
+header,
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rocketflix-container {
+    background: var(--background);
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.rocketflix-header {
+    margin: 20px;
+}
+
+.rocketflix-container .rocketflix-title {
+    color: var(--title);
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.rocketflix-container .rocketflix-text {
+    color: var(--title);
+    font-size: 14px;
+    font-weight: 400;
+    margin: 20px;
+    text-align: center;
+}
+
+.rocketflix-content {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    width: 630px;
+}
+
+.rocketflix-content img {
+    height: 245px;
+    width: 171px;
+}
+
+.rocketflix-content-title-overview {
+    align-items: center;
+    display: flex;
+    margin-left: 34px;
+}
+
+.rocketflix-content-title-overview h2 {
+    color: var(--title);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.rocketflix-content-title-overview p {
+    color: var(--title);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.rocketflix-btn-box {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.rocketflix-btn-box .rocketflix-button {
+    align-items: center;
+    display: flex;
+    background-color: var(--bg-button);
+    border-radius: 5px;
+    flex-direction: row;
+    height: 48px;
+    justify-content: center;
+    width: 180px;
+}
+
+.rocketflix-btn-box .rocketflix-button:hover {
+    background: #D9D8D8;
+    cursor: pointer;
+}
+
+.rocketflix-btn-box .rocketflix-button .rocketflix-button-text {
+    color: #000000;
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 17px;
+}
