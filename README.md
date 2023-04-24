@@ -34,7 +34,6 @@ As tecnologias utilizadas neste projeto são:
 - DOM
 - Media Queries
 - Google Fonts
-- Axios
 
 ## Créditos ❤️
 Feito por [Vinicius Rossi da Silva](https://github.com/vinirossi/).
