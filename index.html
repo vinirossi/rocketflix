@@ -1,12 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>RocketFlix</title>
+    </head>
+    <body>
+        <main class="rocketflix-container">
+            <header class="rocketflix-header">
+                <img src="./assets/logo.svg" alt="Logo da RocketFlix">
+                <h1 class="rocketflix-title">Não sabe o que assistir?</h1>
+            </header>
+
+            <section class="rocketflix-section">
+                <div class="rocketflix-content">
+                    <div id="content-left" class="rocketflix-content-poster"></div>
+                    <div id="content-right" class="rocketflix-content-title-overview"></div>
+                </div>
+                <div class="rocketflix-btn-box">
+                    <button
+                        id="btn-api"
+                        type="button"
+                        class="rocketflix-button">
+                        <img src="./assets/shuffle_icon.svg" alt="Ícone que encontra filmes aleatórios">
+                        <p class="rocketflix-button-text">Encontrar filme</p>
+                    </button>
+                </div>
+                <div>
+                    <p class="rocketflix-text">Clique em "Encontrar filme" que
+                        traremos informações <br> algum filme para você assistir hoje.</p>
+                </div>
+            </section>
+
+        </main>
+    </body>
+    <script src="./main.js"></script>
 </html>
